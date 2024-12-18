@@ -1,0 +1,153 @@
+:root {
+  --white: #ffffff;
+  --red: #CC0000;
+  --red-bg: #cc000044;
+  --gray: #556270;
+  --yellow: #FFCB05;
+  --yellow-hover: #FF9C00;
+  --blue: #3B4CCA;
+  --black: #000;
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: linear-gradient(var(--red), var(--gray));
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+#label {
+  font-size: 18px;
+}
+
+#search-input {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid var(--black);
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--yellow);
+  color: var(--black);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#search-button:hover {
+  background-color: var(--yellow-hover);
+  color: var(--black);
+}
+
+/* Pokémon Data Container */
+
+#name-id-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  border-bottom: 1px solid white;
+}
+
+#weight-height-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 2px;
+}
+
+#sprite-container {
+  margin: 20px 0;
+}
+
+#sprite-container img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Pokémon Types */
+#types span {
+  display: inline-block;
+  background-color: var(--white);
+  color: var(--black);
+  font-weight: bold;
+  margin: 2px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+/* Pokémon Stats Styling */
+#hp, #attack, #defense, #special-attack, #special-defense, #speed {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+#pokemon-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#pokemon-id {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#weight, #height {
+  font-size: 16px;
+}
+
+/* Table Styling */
+#table {
+  background-color: var(--red-bg);
+  margin-top: 30px;
+  height: 70vw;
+  max-height: 500px;
+  width: 70vw;
+  max-width: 500px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+th {
+background-color: var(--black);
+}
+
+th, td {
+padding: 10px;
+border: 1px solid var(--white);
+}
+
+/*Media Query for Small Screens*/
+@media (max-width: 480px) {
+  #search-input {
+      width: 100%;
+  }
+  
+  #sprite-container img {
+      width: 120px;
+      height: 120px;
+  }
+}
