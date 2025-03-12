@@ -8,18 +8,18 @@ including its name, ID, weight, height, stats (HP, Attack, Defense, etc.), types
 
 **-Detailed Pokémon Information:**
 
-    -Name and ID: name and Pokédex number of the Pokémon
+-Name and ID: name and Pokédex number of the Pokémon
   
-    -Weight and Height
+-Weight and Height
   
-    -Types: Shows the types of the Pokémon (e.g., Fire, Water, Grass)
+-Types: Shows the types of the Pokémon (e.g., Fire, Water, Grass)
   
-    -Stats: Provides Pokémon's battle stats (HP, Attack, Defense, Special Attack, Special Defense, Speed)
+-Stats: Provides Pokémon's battle stats (HP, Attack, Defense, Special Attack, Special Defense, Speed)
   
-    -Pokémon Sprite
+-Pokémon Sprite
   
-    -Responsive Design
+-Responsive Design
   
-    -Error Handling: If an invalid Pokémon name or ID is entered, the app alerts the user
+-Error Handling: If an invalid Pokémon name or ID is entered, the app alerts the user
 
 #### Check out the project here: [Live Demo](https://estherlein.github.io/Personal-Portfolio-Webpage/)
