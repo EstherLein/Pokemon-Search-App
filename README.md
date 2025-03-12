@@ -12,9 +12,10 @@ including its name, ID, weight, height, stats (HP, Attack, Defense, etc.), types
   
   2. Weight and Height
   
-  3. Types: Shows the types of the Pokémon (e.g., Fire, Water, Grass)
-  
-  4.Stats: Provides Pokémon's battle stats (HP, Attack, Defense, Special Attack, Special Defense, Speed)
+  3. Types: Shows the types of the Pokémon (e.g., Fire, Water, Grass
+
+  4.Stats: Provides Pokémon's battle stats (HP, Attack, Defense,
+    Special Attack, Special Defense, Speed)
   
   5. Pokémon Sprite
   
@@ -22,4 +23,4 @@ including its name, ID, weight, height, stats (HP, Attack, Defense, etc.), types
   
   7. Error Handling: If an invalid Pokémon name or ID is entered, the app alerts the user
 
-#### Check out the project here: [Live Demo](https://estherlein.github.io/Personal-Portfolio-Webpage/)
+#### Check out the project here: [Live Demo](https://estherlein.github.io/Pokemon-Search-App/)
