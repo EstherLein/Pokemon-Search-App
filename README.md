@@ -4,15 +4,15 @@ including its name, ID, weight, height, stats (HP, Attack, Defense, etc.), types
 
 ## Features:
 
-**-Search by Name or ID:** Allows easy access to different sections
+**-Search by Name or ID**
 
 **-Detailed Pokémon Information:**
 
-  1. Name and ID: name and Pokédex number of the Pokémon
+  1. Name and ID of the Pokémon
   
   2. Weight and Height
   
-  3. Types: Shows the types of the Pokémon (e.g., Fire, Water, Grass
+  3. Types: Shows the types of the Pokémon (e.g., Fire, Water, Grass)
 
   4. Stats: HP, Attack, Defense, Special Attack, Special Defense, Speed
   
