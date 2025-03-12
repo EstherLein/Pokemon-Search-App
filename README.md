@@ -14,8 +14,7 @@ including its name, ID, weight, height, stats (HP, Attack, Defense, etc.), types
   
   3. Types: Shows the types of the Pokémon (e.g., Fire, Water, Grass
 
-  4.Stats: Provides Pokémon's battle stats (HP, Attack, Defense,
-    Special Attack, Special Defense, Speed)
+  4. Stats: HP, Attack, Defense, Special Attack, Special Defense, Speed
   
   5. Pokémon Sprite
   
