@@ -18,8 +18,8 @@ including its name, ID, weight, height, stats (HP, Attack, Defense, etc.), types
   
   5. Pokémon Sprite
   
-  6. Responsive Design
+**-Responsive Design**
   
-  7. Error Handling: If an invalid Pokémon name or ID is entered, the app alerts the user
+**-Error Handling:** If an invalid Pokémon name or ID is entered, the app alerts the user
 
 #### Check out the project here: [Live Demo](https://estherlein.github.io/Pokemon-Search-App/)
